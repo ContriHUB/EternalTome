@@ -1,23 +1,30 @@
 const express = require("express");
 
 const app = express();
-const secure = require("./middleware");
+const { prechecks , container, generateToken, postChecks} = require("./middleware");
+const cookieParser = require('cookie-parser');
 
-app.use(secure);
 
-app.get('/end',(req,res)=>{
-    res.send("This the endpoint for performing some attack");
-})
+
+app.set("trust proxy", true); // if sitting behind a proxy
+app.use(express.json()); // if using req.body
+app.use(cookieParser());// if using cookies
+
+
+app.get('/token',generateToken);
+app.use(prechecks);
+app.use(postChecks);
+
+
 app.post('/post',(req,res) => {
-
     container(req , res , 'post.js')
-   
 })
 
 app.get('/get' , (req , res)=>{
     container(req , res , 'get.js')
+    // const h = require('./routes/get.js');
+    // h(req,res);
 })
-
 
 app.listen(3000 , () => {
 

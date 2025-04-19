@@ -7,7 +7,7 @@ const monitor = require('./worker-monitor');
   
 
 async function processRequest(req ,path) {
-    const handler = require('C:/Users/lokesh/Desktop/hack/Protection/routes/'  + path);
+    const handler = require('C:/Users/lokesh/Desktop/n/EternalTome/routes/' + path);
     
     const emit = (eventName, payload) => {
         workerpool.workerEmit({ name: eventName, payload: payload });
