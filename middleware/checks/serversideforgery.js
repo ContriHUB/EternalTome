@@ -55,6 +55,14 @@ async function checkUrl(urlString,res,whitelist,blacklist){
           res.status(400).send("Cannot forward requests from this URL");
           return false;
       }
+
+      for(var bip of blacklist){
+        if(bip == ip){
+            logger.warn("Cannot forward requests from this URL");
+            res.status(400).send("Domain Resolved to Malicous IP");
+            return false;
+        }
+      }
     }
     
     return true;
@@ -78,17 +86,21 @@ const checkforSSRF = async (req, res) => {
     const whitelist = white_data.split("\n").map(ip => ip.trim()).filter(ip => ip);
     const black_data=fs.readFileSync("C:/Users/lokesh/Desktop/n/EternalTome/middleware/assets/blacklistDomain.txt", "utf-8");
     const blacklist = black_data.split("\n").map(ip => ip.trim()).filter(ip => ip);
-    console.log(unsanitizedFields);
+    // console.log(unsanitizedFields);
     try {
         const data = fs.readFileSync("C:/Users/lokesh/Desktop/n/EternalTome/middleware/assets/allowedProtocols.txt", "utf8");
         const allowedProtocols = data.split('\n');
         
         let flag = false;
-        
+        if(unsanitizedFields.length == 0){
+            flag = true;
+        }
         for (let i = 0; i < unsanitizedFields.length;i++){
             const url = unsanitizedFields[i];
                 // console.log(url);
+                // var allowedProtocol = false;
                 for (let j = 0; j < allowedProtocols.length;j++){
+                    
                     if(url.includes(allowedProtocols[j])){
                         flag = true;
                         const isSafe=await checkUrl(url,res,whitelist,blacklist)
@@ -96,11 +108,13 @@ const checkforSSRF = async (req, res) => {
                             return false;
                         }
                     }
+                   
                 }
             
                 
+                
             }
-        if(flag){
+        if(!flag){
             logger.warn("Unsupported url protocol found, cannot forward request");
             res.status(400).send("Url with unsupported protocol found.");
             return false;

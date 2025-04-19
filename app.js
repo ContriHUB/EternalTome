@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const { prechecks , container, generateToken, postChecks} = require("./middleware");
 const cookieParser = require('cookie-parser');
+const { compareSync } = require("bcrypt");
 
 
 
@@ -25,6 +26,24 @@ app.get('/get' , (req , res)=>{
     // const h = require('./routes/get.js');
     // h(req,res);
 })
+
+app.post('/sqlinjection' , (req , res) => {
+    container(req , res , 'sqlinjection.js')
+    // const h = require('./routes/sqlinjection.js');
+    // h(req,res);
+})
+
+app.post('/serversideforgery' , (req , res) => {
+    container(req , res , 'serversideforgery.js');
+})
+
+app.post('/excessiveMem' , (req , res) => {
+    container(req , res , 'excessiveMem.js');
+})
+
+app.post('/excessiveTime' , (req , res) => {
+    container(req , res , 'excessiveTime.js')
+});
 
 app.listen(3000 , () => {
 

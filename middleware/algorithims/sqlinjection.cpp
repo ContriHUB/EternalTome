@@ -74,7 +74,7 @@ int32_t main(int32_t argc , char * argv[]){
             int h = generateHash(s , powers);
            
             int idx = lower_bound(malicous_hash.begin(),malicous_hash.end(),h) - malicous_hash.begin();
-            // cout<<s<<"\n";
+            cout<<s<<"\n";
             // cout<<h<<" "<<malicous_hash[idx]<<"\n";
             if(idx == -1 || malicous_hash[idx] != h){
                 cout<<s<<endl;

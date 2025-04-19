@@ -7,13 +7,15 @@ async function invokeCPP (fields , path){
     // algorithim is the name of the algortihim that we are going to use
 
     var result;
-    // separate each of the strings by whitespace as a delimiter
+    // separate each of the strings by \n as a delimiter
     // inside the CPP code argv[0] is file path rest are strings
+    
     try {
-        const { stdout } = await exec(`${path} ${fields.join(' ')}`);
-        const result = stdout.trim().split(' ');
+        const { stdout } = await exec(`${path} ${fields.map(field => `"${field}"`).join(' ')}`);
+        const result = stdout.trim().split(/\r?\n/);
         return result;
     } catch (err) {
+        console.log(err);
         // console.error('Crashed');
         return "Crashed";
     }

@@ -10,7 +10,8 @@ const checkForSQLInjection = async (req , res) => {
        const unsanitizedFields = targets.map((obj , idx) => {
         return obj.value;
        })
-       const sanitizedFields = await invokeCPP(unsanitizedFields , "C:/Users/lokesh/Desktop/hack/Protection/middleware/algorithims/sqlinjection.exe");
+    //    console.log(unsanitizedFields)
+       const sanitizedFields = await invokeCPP(unsanitizedFields , "C:/Users/lokesh/Desktop/n/EternalTome/middleware/algorithims/sqlinjection.exe");
        
        for(let i=0;i<targets.length;i++){
         targets[i].value = sanitizedFields[i];
@@ -18,8 +19,9 @@ const checkForSQLInjection = async (req , res) => {
        
        for(let i=0;i<targets.length;i++){
         req[targets[i].key] = targets[i].value;
+        
        }
-       
+    //    console.log(targets);
        setTargetFields(req , targets);
        logger.info("SQL injection check completed request is ok!!");
        

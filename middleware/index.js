@@ -23,7 +23,7 @@ const bcrypt = require('bcrypt');
 var BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
 const secretKey = "this is a secret key rsa oooo very scary";
 const options = {
-  MEMORY_LIMIT_MB : 500, // 500MB limit
+  MEMORY_LIMIT_MB : 50, // 500MB limit
   CHECK_INTERVAL_MS : 5000, // Check every 5 seconds
   MAX_TIME : 400000,
 }
@@ -35,10 +35,10 @@ const monitorMemory = () => {
   const memoryUsage = process.memoryUsage();
   const currMem = (memoryUsage.rss / 1024 / 1024) - BASE_MEMORY; // Resident Set Size in MB
 
-//   console.log("current mem consumption is " + currMem);
+  console.log("current mem consumption is " + currMem);
   if (currMem  > options.MEMORY_LIMIT_MB) {
     logger.warn(`Memory Limit Has been Exceedded with current consumption being ${currMem}`);
-    // console.log("terminating");
+    console.log("terminating");
     pool.terminate({timeout : 4000});
     events.emit('terminate');
   }
@@ -57,13 +57,25 @@ const apiSchema = {//
     // used to validate
     "/get/" : Joi.object({ data : Joi.string() }),
     "/post/" : Joi.object( {
-        message : Joi.string(),
+        data : Joi.string(),
         port : Joi.number()
-    })
+    }),
+    "/sqlinjection/" : Joi.object({
+        query : Joi.string()
+    }),
+    "/serversideforgery/" : Joi.object({
+        output : Joi.string()
+    }),
+    "/excessiveMem/" : Joi.object({
+        output : Joi.string()
+    }),
+    "/excessiveTime/" : Joi.object({
+        output : Joi.string()
+    }),
 }
 
 // each object has to have a uniquely identifying key
-// each key is to be assoicated with a owner
+// each key is to be assoicated with a owne
 // owner auth to be done
 const decryptToken = (token , secret) => {
     return jwt.verify(token, secret);
@@ -279,7 +291,7 @@ const generateToken = async (req, res) => {
                 const token = jwt.sign(
                     { entityId: entityId },
                     secretKey, // Store this in your environment variables
-                    { expiresIn: '1h' } // Token expires in 1 hour
+                    { expiresIn: '24h' } // Token expires in 1 hour
                 );
 
                 return res.status(200).json({ 
@@ -319,6 +331,20 @@ const generateToken = async (req, res) => {
     }
 };
 
+
+function ensureTrailingSlash(str) {
+   
+    if (!str) return '/';
+    
+
+    if (str.endsWith('/')) {
+      return str;
+    }
+    
+  
+    return str + '/';
+  }
+
 const postChecks = (req , res , next) => {
     const oldSend = res.send;
     
@@ -327,7 +353,10 @@ const postChecks = (req , res , next) => {
         // console.log(count);
         // count++;
         // console.log(JSON.stringify(data));
-        if( checkFormat(data , apiSchema[req.path])){
+        // console.log(req.path);
+        const path = ensureTrailingSlash(req.path);
+        console.log(path);
+        if( checkFormat(data , apiSchema[path])){
             // console.log('(');
             oldSend.call(res , JSON.stringify(data));
         }

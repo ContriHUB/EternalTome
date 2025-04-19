@@ -11,7 +11,7 @@ const checkforMalicousIP = (req , res) => {
     let ip = normalizeIP(req.ip);
     logger.info(`checking ip: ${ip}`);
     try {
-        const data = fs.readFileSync("C:/Users/lokesh/Desktop/hack/Protection/middleware/assets/ipblacklist.txt", "utf-8");
+        const data = fs.readFileSync("C:/Users/lokesh/Desktop/n/EternalTome/middleware/assets/ipblacklist.txt", "utf-8");
         const blacklist = data.split("\n").map(ip => ip.trim()).filter(ip => ip);
 
         for (let i = 0; i < blacklist.length; i++) {
