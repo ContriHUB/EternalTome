@@ -31,5 +31,3 @@ const checkforMalicousIP = (req , res) => {
 }
 
 module.exports = { checkforMalicousIP , normalizeIP };
-
-//todo -: ask lokesh if error ->  should we allow request for further
