@@ -23,9 +23,9 @@ const bcrypt = require('bcrypt');
 var BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
 const secretKey = "this is a secret key rsa oooo very scary";
 const options = {
-  MEMORY_LIMIT_MB : 50, // 500MB limit
+  MEMORY_LIMIT_MB : 20, // 500MB limit
   CHECK_INTERVAL_MS : 5000, // Check every 5 seconds
-  MAX_TIME : 400000,
+  MAX_TIME : 4000,
 }
 BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
 const events = new EventEmitter();
@@ -35,11 +35,12 @@ const monitorMemory = () => {
   const memoryUsage = process.memoryUsage();
   const currMem = (memoryUsage.rss / 1024 / 1024) - BASE_MEMORY; // Resident Set Size in MB
 
-  console.log("current mem consumption is " + currMem);
+//   console.log("current mem consumption is " + currMem);
   if (currMem  > options.MEMORY_LIMIT_MB) {
     logger.warn(`Memory Limit Has been Exceedded with current consumption being ${currMem}`);
-    console.log("terminating");
-    pool.terminate({timeout : 4000});
+    // console.log("terminating");
+    // BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
+    pool.terminate(true);
     events.emit('terminate');
   }
 
@@ -141,17 +142,26 @@ const container = async (req , res , handler) => {
   
     try{
         var flag = false;
-        const id = setTimeout(() => {
-            res.status(400);
-            res.send("Time usage exceeded");
-            flag = true;
-        }, options.MAX_TIME);
-
-        events.on('terminate' , ()=>{
-            res.status(400);
-            res.send("Memory Limit Exceeded");
-            flag = true;
-        })
+       
+            const id = setTimeout(() => {
+                if(flag){
+                    return;
+                }
+                res.status(400);
+                res.send({error : "Resource usage exceeded" , errorPayload : true});
+                flag = true;
+            }, options.MAX_TIME);
+    
+            events.on('terminate' , ()=>{
+                if(flag){
+                    return;
+                }
+                res.status(400);
+                res.send({error : "Resoruce usage exceeded" , errorPayload : true});
+                flag = true;
+            })
+    
+        
 
         pool.exec('processRequest', [{body : req.body , query : req.query , cookies : req.cookies , headers : req.headers} , handler] , {
             on: ({name , payload}) => {
@@ -354,16 +364,24 @@ const postChecks = (req , res , next) => {
         // count++;
         // console.log(JSON.stringify(data));
         // console.log(req.path);
-        const path = ensureTrailingSlash(req.path);
-        console.log(path);
-        if( checkFormat(data , apiSchema[path])){
-            // console.log('(');
-            oldSend.call(res , JSON.stringify(data));
+        if(data.errorPayload){
+            console.log(data);
+            // oldSend.call(res , data.error);
+            oldSend.call(res , data.error);
         }
         else{
-            res.status(400);
-            oldSend.call(res , "Wrong Format");
+            const path = ensureTrailingSlash(req.path);
+            console.log(path);
+            if( checkFormat(data , apiSchema[path])){
+                // console.log('(');
+                oldSend.call(res , JSON.stringify(data));
+            }
+            else{
+                res.status(400);
+                oldSend.call(res , "Wrong Format");
+            }
         }
+       
         
     }
     next();

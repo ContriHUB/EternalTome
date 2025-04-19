@@ -10,7 +10,7 @@ const logger = createLogger({
     )
   ),
   transports: [
-    new transports.Console(),                         // consoleg print
+    // new transports.Console(),                         // consoleg print
     new transports.File({ filename: 'security.log' }) // Save to file
   ],
 });
