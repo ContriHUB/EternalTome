@@ -20,14 +20,14 @@ const Joi = require('joi');
 const redisClient = require("./utils/redisclient");
 const bcrypt = require('bcrypt');
 
-var BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
+var BASE_MEMORY = 0;
 const secretKey = "this is a secret key rsa oooo very scary";
 const options = {
-  MEMORY_LIMIT_MB : 20, // 500MB limit
+  MEMORY_LIMIT_MB : 120, // 500MB limit
   CHECK_INTERVAL_MS : 5000, // Check every 5 seconds
   MAX_TIME : 4000,
 }
-BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
+// BASE_MEMORY = process.memoryUsage().rss / 1024 / 1024;
 const events = new EventEmitter();
 
 
@@ -35,7 +35,7 @@ const monitorMemory = () => {
   const memoryUsage = process.memoryUsage();
   const currMem = (memoryUsage.rss / 1024 / 1024) - BASE_MEMORY; // Resident Set Size in MB
 
-//   console.log("current mem consumption is " + currMem);
+  console.log("current mem consumption is " + currMem);
   if (currMem  > options.MEMORY_LIMIT_MB) {
     logger.warn(`Memory Limit Has been Exceedded with current consumption being ${currMem}`);
     // console.log("terminating");
@@ -100,11 +100,12 @@ const prechecks = async (req , res , next) => {
 
     const validSession = await isSessionValid(req);
     var rateLimited = false;
-    if(validSession){
+    if(!validSession){
+        console.log("checking rate")
         rateLimited = await rateLimiter(req); 
     }
 
-    if(validSession && !rateLimited){
+    if(! rateLimited){
         res.status(400);
         res.send("This end point has been RateLimited");
         return;
@@ -157,7 +158,7 @@ const container = async (req , res , handler) => {
                     return;
                 }
                 res.status(400);
-                res.send({error : "Resoruce usage exceeded" , errorPayload : true});
+                res.send({error : "Resource usage exceeded" , errorPayload : true});
                 flag = true;
             })
     

@@ -14,7 +14,7 @@ async function rateLimiter(req) {
   const redisKey = `ratelimitkrrhahu:${ip}`; //unique key for redis
   // increase value in redis map atu this key
   const current = await redis.incr(redisKey);
-
+  console.log(current)
   //IF IT IS FIRST REQUEST
   if (current === 1) {
     // Start a timer

@@ -1,953 +1,687 @@
-[2025-04-19T16:27:20.536Z] INFO: starting sql injection checks
-[2025-04-19T16:27:21.500Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:27:21.501Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:27:21.627Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:27:21.628Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:27:22.430Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:27:22.431Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:27:22.431Z] ERROR: check for server side forgery failed : ENOENT: no such file or directory, open 'C:\home\vantablack\C0de\Projects\hack36\protection\Protection\middleware\assets\allowedProtocols.txt'
-[2025-04-19T16:29:13.082Z] INFO: starting sql injection checks
-[2025-04-19T16:29:13.859Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:29:13.860Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:29:13.899Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:29:13.900Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:29:14.689Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:29:14.689Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:29:14.691Z] ERROR: check for server side forgery failed : ENOENT: no such file or directory, open 'C:\home\vantablack\C0de\Projects\hack36\protection\Protection\middleware\assets\allowedProtocols.txt'
-[2025-04-19T16:32:03.640Z] INFO: starting sql injection checks
-[2025-04-19T16:32:04.363Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:32:04.364Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:32:04.415Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:32:04.416Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:32:05.130Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:32:05.132Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:32:05.133Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:33:39.227Z] INFO: starting sql injection checks
-[2025-04-19T16:33:39.997Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:33:39.998Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:33:40.050Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:33:40.050Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:33:41.972Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:33:41.975Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:33:41.990Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:34:27.071Z] INFO: starting sql injection checks
-[2025-04-19T16:34:27.837Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:34:27.839Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:34:27.939Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:34:27.940Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:34:28.770Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:34:28.771Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:34:28.773Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:38:13.382Z] INFO: starting sql injection checks
-[2025-04-19T16:38:14.119Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:38:14.120Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:38:14.203Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:38:14.205Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:38:14.861Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:38:14.862Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:38:14.865Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:38:48.764Z] INFO: starting sql injection checks
-[2025-04-19T16:38:49.489Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:38:49.490Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:38:49.537Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:38:49.539Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:38:50.283Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:38:50.284Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:38:50.285Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:40:39.873Z] INFO: starting sql injection checks
-[2025-04-19T16:40:40.607Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:40:40.608Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:40:40.650Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:40:40.651Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:40:42.400Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:40:42.401Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:41:44.537Z] INFO: starting sql injection checks
-[2025-04-19T16:41:45.339Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:41:45.339Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:41:45.424Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:41:45.424Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:41:46.106Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:41:46.107Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://google.com/
-[2025-04-19T16:42:09.280Z] INFO: starting sql injection checks
-[2025-04-19T16:42:10.025Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:42:10.025Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:42:10.118Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:42:10.118Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:42:12.116Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:42:12.117Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com/
-[2025-04-19T16:42:27.035Z] INFO: starting sql injection checks
-[2025-04-19T16:42:27.782Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:42:27.782Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:42:27.868Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:42:27.868Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:42:28.510Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:42:28.511Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com
-[2025-04-19T16:44:18.516Z] INFO: starting sql injection checks
-[2025-04-19T16:44:19.255Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:44:19.256Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:44:19.292Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:44:19.292Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:44:19.947Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:44:19.948Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com
-[2025-04-19T16:45:36.265Z] INFO: starting sql injection checks
-[2025-04-19T16:45:37.019Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:45:37.020Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:45:37.069Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:45:37.070Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:45:37.861Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:45:37.861Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com
-[2025-04-19T16:52:32.592Z] INFO: starting sql injection checks
-[2025-04-19T16:52:33.366Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:52:33.367Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:52:33.416Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:52:33.417Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:52:34.195Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:52:34.196Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com
-[2025-04-19T16:52:34.198Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:52:43.120Z] INFO: starting sql injection checks
-[2025-04-19T16:52:43.948Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:52:43.949Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:52:44.034Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:52:44.034Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:52:44.677Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:52:44.678Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:52:44.681Z] ERROR: check for server side forgery failed : Cannot read properties of undefined (reading 'includes')
-[2025-04-19T16:53:38.736Z] INFO: starting sql injection checks
-[2025-04-19T16:53:39.451Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:53:39.452Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:53:39.498Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:53:39.499Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:53:40.257Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:53:40.258Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:53:40.261Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T16:54:04.477Z] INFO: starting sql injection checks
-[2025-04-19T16:54:05.216Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:54:05.218Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:54:05.264Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:54:05.265Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:54:05.963Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:54:05.964Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:54:16.044Z] INFO: starting sql injection checks
-[2025-04-19T16:54:16.780Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:54:16.781Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:54:16.826Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:54:16.827Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:54:17.535Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:54:17.535Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:54:59.823Z] INFO: starting sql injection checks
-[2025-04-19T16:55:00.554Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:55:00.555Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:55:00.600Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:55:00.602Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:55:01.368Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:55:01.369Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:57:07.029Z] INFO: starting sql injection checks
-[2025-04-19T16:57:07.761Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:57:07.762Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:57:07.796Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:57:07.797Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:57:08.501Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:57:08.502Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:57:36.196Z] INFO: starting sql injection checks
-[2025-04-19T16:57:36.920Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:57:36.921Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:57:36.968Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:57:36.969Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:57:37.711Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:57:37.712Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:58:19.472Z] INFO: starting sql injection checks
-[2025-04-19T16:58:20.215Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:58:20.217Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:58:20.267Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:58:20.268Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:58:21.135Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:58:21.135Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:58:36.787Z] INFO: starting sql injection checks
-[2025-04-19T16:58:37.564Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:58:37.565Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:58:37.611Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:58:37.612Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:58:38.413Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:58:38.414Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:59:04.035Z] INFO: starting sql injection checks
-[2025-04-19T16:59:04.790Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:59:04.791Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:59:04.831Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:59:04.832Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:59:05.674Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:59:05.676Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:59:16.465Z] INFO: starting sql injection checks
-[2025-04-19T16:59:17.212Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:59:17.213Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:59:17.255Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:59:17.256Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:59:17.945Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:59:17.946Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T16:59:54.544Z] INFO: starting sql injection checks
-[2025-04-19T16:59:55.304Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T16:59:55.305Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T16:59:55.346Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T16:59:55.347Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T16:59:56.261Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T16:59:56.263Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:00:59.371Z] INFO: starting sql injection checks
-[2025-04-19T17:01:00.138Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:01:00.139Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:01:00.184Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:01:00.185Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:01:01.224Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:01:01.225Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:01:37.807Z] INFO: starting sql injection checks
-[2025-04-19T17:01:38.554Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:01:38.555Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:01:38.593Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:01:38.594Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:01:39.475Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:01:39.477Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:02:47.009Z] INFO: starting sql injection checks
-[2025-04-19T17:02:47.774Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:02:47.775Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:02:47.821Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:02:47.822Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:02:48.569Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:02:48.570Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:04:15.746Z] INFO: starting sql injection checks
-[2025-04-19T17:04:16.476Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:04:16.477Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:04:16.524Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:04:16.525Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:04:17.195Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:04:17.196Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:05:14.723Z] INFO: starting sql injection checks
-[2025-04-19T17:05:15.488Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:05:15.490Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:05:15.544Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:05:15.545Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:05:16.246Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:05:16.248Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post/
-[2025-04-19T17:05:54.147Z] INFO: starting sql injection checks
-[2025-04-19T17:05:54.903Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:05:54.904Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:05:54.944Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:05:54.946Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:05:55.795Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:05:55.796Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:07:21.021Z] INFO: starting sql injection checks
-[2025-04-19T17:07:21.793Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:07:21.794Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:07:21.842Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:07:21.843Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:07:22.567Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:07:22.568Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:08:35.549Z] INFO: starting sql injection checks
-[2025-04-19T17:08:36.349Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:08:36.350Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:08:36.395Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:08:36.396Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:08:37.221Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:08:37.222Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:09:28.858Z] INFO: starting sql injection checks
-[2025-04-19T17:09:29.671Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:09:29.674Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:09:29.721Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:09:29.722Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:09:30.523Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:09:30.524Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:09:42.818Z] INFO: starting sql injection checks
-[2025-04-19T17:09:43.547Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:09:43.548Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:09:43.595Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:09:43.596Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:09:44.330Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:09:44.330Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:10:03.134Z] INFO: starting sql injection checks
-[2025-04-19T17:10:03.902Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:10:03.903Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:10:03.944Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:10:03.945Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:10:04.664Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:10:04.665Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T17:10:07.425Z] INFO: starting sql injection checks
-[2025-04-19T17:10:08.170Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:10:08.172Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:10:08.257Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:10:08.258Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:10:08.653Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:10:08.654Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=http://example.com
-[2025-04-19T17:10:41.552Z] INFO: starting sql injection checks
-[2025-04-19T17:10:42.366Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:10:42.367Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:10:42.457Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:10:42.458Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:10:43.089Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:10:43.089Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?attack=https://example.com
-[2025-04-19T17:10:43.092Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T17:10:54.461Z] INFO: starting sql injection checks
-[2025-04-19T17:10:55.291Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T17:10:55.292Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T17:10:55.371Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T17:10:55.371Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T17:10:56.094Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T17:10:56.094Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T18:13:44.647Z] INFO: starting sql injection checks
-[2025-04-19T18:13:45.598Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:13:45.599Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:13:45.721Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:13:45.722Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:13:46.414Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:13:46.415Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:14:49.662Z] INFO: starting sql injection checks
-[2025-04-19T18:14:50.363Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:14:50.364Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:14:50.410Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:14:50.411Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:14:51.140Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:14:51.141Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:17:43.749Z] INFO: starting sql injection checks
-[2025-04-19T18:17:44.493Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:17:44.494Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:17:44.587Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:17:44.588Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:17:45.237Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:17:45.238Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:18:29.491Z] INFO: starting sql injection checks
-[2025-04-19T18:18:30.173Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:18:30.173Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:18:30.275Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:18:30.275Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:18:31.046Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:18:31.047Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
-[2025-04-19T18:19:21.427Z] INFO: starting sql injection checks
-[2025-04-19T18:19:22.071Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:19:22.071Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:19:22.159Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:19:22.160Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:19:22.866Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:19:22.867Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?dddd=asdasd
-[2025-04-19T18:23:05.076Z] INFO: starting sql injection checks
-[2025-04-19T18:23:05.766Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:23:05.766Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:23:05.812Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:23:05.813Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:23:06.571Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:23:06.572Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /get/?dddd=asdasd
-[2025-04-19T18:23:24.741Z] INFO: starting sql injection checks
-[2025-04-19T18:23:25.393Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:23:25.394Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:23:25.440Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:23:25.440Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:23:26.108Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:23:26.108Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:23:55.631Z] INFO: starting sql injection checks
-[2025-04-19T18:23:56.304Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:23:56.305Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:23:56.356Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:23:56.357Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:23:57.094Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:23:57.095Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:25:09.048Z] INFO: starting sql injection checks
-[2025-04-19T18:25:09.706Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:25:09.707Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:25:09.744Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:25:09.745Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:25:10.474Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:25:10.475Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:26:33.686Z] INFO: starting sql injection checks
-[2025-04-19T18:26:34.547Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:26:34.548Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:26:34.605Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:26:34.605Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:26:35.451Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:26:35.452Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:27:49.689Z] INFO: starting sql injection checks
-[2025-04-19T18:27:50.365Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:27:50.366Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:27:50.412Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:27:50.414Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:27:51.250Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:27:51.251Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=sopme&password=asddd
-[2025-04-19T18:30:01.990Z] INFO: starting sql injection checks
-[2025-04-19T18:30:02.687Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:30:02.688Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:30:02.734Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:30:02.735Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:30:03.630Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:30:03.631Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=&password=asddd
-[2025-04-19T18:30:55.113Z] INFO: starting sql injection checks
-[2025-04-19T18:30:55.821Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:30:55.822Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:30:55.868Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:30:55.869Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:30:56.732Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:30:56.732Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=admin%27%20or%201%20%20=%20%201%23&password=asddd
-[2025-04-19T18:31:29.462Z] INFO: starting sql injection checks
-[2025-04-19T18:31:30.180Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:31:30.181Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:31:30.274Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:31:30.275Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:31:30.978Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:31:30.979Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=&password=asddd
-[2025-04-19T18:33:05.631Z] INFO: starting sql injection checks
-[2025-04-19T18:33:06.416Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:33:06.417Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:33:06.462Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:33:06.463Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:33:07.117Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:33:07.118Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=&password=asddd
-[2025-04-19T18:33:20.854Z] INFO: starting sql injection checks
-[2025-04-19T18:33:21.545Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:33:21.545Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:33:21.614Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:33:21.614Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:33:22.311Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:33:22.312Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=admin%27%20or%201%20%20=%20%201%23&password=asddd
-[2025-04-19T18:33:50.018Z] INFO: starting sql injection checks
-[2025-04-19T18:33:50.703Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:33:50.703Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:33:50.753Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:33:50.754Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:33:51.418Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:33:51.418Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:34:27.384Z] INFO: starting sql injection checks
-[2025-04-19T18:34:28.104Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:34:28.105Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:34:28.148Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:34:28.149Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:34:28.823Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:34:28.824Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:35:56.152Z] INFO: starting sql injection checks
-[2025-04-19T18:35:56.805Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:35:56.806Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:35:56.858Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:35:56.859Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:35:57.544Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:35:57.545Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:36:24.949Z] INFO: starting sql injection checks
-[2025-04-19T18:36:25.626Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:36:25.627Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:36:25.674Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:36:25.675Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:36:26.352Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:36:26.353Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:38:34.276Z] INFO: starting sql injection checks
-[2025-04-19T18:38:34.932Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:38:34.933Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:38:34.972Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:38:34.973Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:38:35.699Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:38:35.700Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:40:08.190Z] INFO: starting sql injection checks
-[2025-04-19T18:40:09.115Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:40:09.116Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:40:09.181Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:40:09.182Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:40:10.022Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:40:10.023Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:40:35.682Z] INFO: starting sql injection checks
-[2025-04-19T18:40:36.458Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:40:36.459Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:40:36.497Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:40:36.498Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:40:37.202Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:40:37.203Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:41:15.713Z] INFO: starting sql injection checks
-[2025-04-19T18:41:16.416Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:41:16.418Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:41:16.459Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:41:16.461Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:41:17.058Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:41:17.058Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:41:41.494Z] INFO: starting sql injection checks
-[2025-04-19T18:41:42.386Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:41:42.387Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:41:42.436Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:41:42.437Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:41:43.231Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:41:43.231Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:42:08.469Z] INFO: starting sql injection checks
-[2025-04-19T18:42:09.221Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:42:09.223Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:42:09.282Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:42:09.283Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:42:09.976Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:42:09.977Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:42:38.521Z] INFO: starting sql injection checks
-[2025-04-19T18:42:39.166Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:42:39.167Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:42:39.214Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:42:39.215Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:42:39.981Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:42:39.982Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection?username=or%201%20%20=%20%201%20--&password=asddd
-[2025-04-19T18:43:03.354Z] INFO: starting sql injection checks
-[2025-04-19T18:43:03.898Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:43:03.899Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:43:03.984Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:43:03.985Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:43:04.306Z] INFO: starting sql injection checks
-[2025-04-19T18:43:04.638Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:43:04.638Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection
-[2025-04-19T18:43:04.899Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:43:04.900Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:43:04.938Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:43:04.938Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:43:05.283Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:43:05.284Z] INFO: allowed device| IP: ::1| User-Agent: | Path: /sqlinjection
-[2025-04-19T18:43:53.437Z] INFO: starting sql injection checks
-[2025-04-19T18:43:54.188Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:43:54.189Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:43:54.262Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:43:54.264Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:43:54.934Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:43:54.935Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T18:45:19.263Z] INFO: starting sql injection checks
-[2025-04-19T18:45:19.933Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:45:19.934Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:45:20.064Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:45:20.065Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:45:20.757Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:45:20.758Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get
-[2025-04-19T18:45:36.848Z] INFO: starting sql injection checks
-[2025-04-19T18:45:37.519Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:45:37.519Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:45:37.599Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:45:37.600Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:45:38.303Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:45:38.303Z] WARN: Blocked Device Detected| IP: ::1 | User-Agent: windows | Path: /get
-[2025-04-19T18:51:33.788Z] INFO: starting sql injection checks
-[2025-04-19T18:51:34.500Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T18:51:34.501Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T18:51:34.537Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T18:51:34.538Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T18:51:35.237Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T18:51:35.238Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T19:02:44.024Z] INFO: starting sql injection checks
-[2025-04-19T19:02:44.682Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:02:44.683Z] INFO: checking ip: 218.92.0.216
-[2025-04-19T19:02:44.766Z] WARN: blocked malicious ip: 218.92.0.216
-[2025-04-19T19:02:44.772Z] INFO: checking ip : 218.92.0.216
-[2025-04-19T19:02:45.554Z] INFO: ip location: Nanjing, JS, China (Lat: 31.7762, Lon: 118.842)
-[2025-04-19T19:02:45.554Z] WARN: ip 218.92.0.216 blocked - outside trusted geolocation range
-[2025-04-19T19:09:51.214Z] INFO: starting sql injection checks
-[2025-04-19T19:09:51.873Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:09:51.874Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:09:51.963Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:09:51.964Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:09:52.621Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:09:52.622Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:09:52.623Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:10:13.200Z] INFO: starting sql injection checks
-[2025-04-19T19:10:13.872Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:10:13.872Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:10:13.980Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:10:13.981Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:10:14.718Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:10:14.718Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:12:09.336Z] INFO: starting sql injection checks
-[2025-04-19T19:12:10.110Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:12:10.111Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:12:10.149Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:12:10.151Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:12:10.903Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:12:10.904Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:12:57.086Z] INFO: starting sql injection checks
-[2025-04-19T19:12:57.771Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:12:57.772Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:12:57.812Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:12:57.813Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:12:58.540Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:12:58.541Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:14:13.337Z] INFO: starting sql injection checks
-[2025-04-19T19:14:13.972Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:14:13.973Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:14:14.011Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:14:14.012Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:14:14.638Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:14:14.639Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:14:20.404Z] INFO: starting sql injection checks
-[2025-04-19T19:14:21.126Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:14:21.126Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:14:21.158Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:14:21.158Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:14:21.845Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:14:21.846Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:15:28.676Z] INFO: starting sql injection checks
-[2025-04-19T19:15:29.321Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:15:29.323Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:15:29.364Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:15:29.364Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:15:30.172Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:15:30.173Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:15:30.175Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:15:42.216Z] INFO: starting sql injection checks
-[2025-04-19T19:15:42.829Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:15:42.829Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:15:42.880Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:15:42.880Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:15:43.763Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:15:43.764Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:15:43.765Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:16:09.017Z] INFO: starting sql injection checks
-[2025-04-19T19:16:09.652Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:16:09.653Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:16:09.690Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:16:09.691Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:16:10.492Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:16:10.493Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:16:10.496Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:16:15.401Z] INFO: starting sql injection checks
-[2025-04-19T19:16:16.070Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:16:16.071Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:16:16.115Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:16:16.115Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:16:16.893Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:16:16.894Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:16:16.896Z] WARN: Cannot forward requests from this URL
-[2025-04-19T19:16:34.160Z] INFO: starting sql injection checks
-[2025-04-19T19:16:34.874Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:16:34.875Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:16:34.929Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:16:34.929Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:16:35.603Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:16:35.604Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:16:43.395Z] INFO: starting sql injection checks
-[2025-04-19T19:16:44.090Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:16:44.091Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:16:44.165Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:16:44.165Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:16:44.826Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:16:44.827Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:16:44.828Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:20:45.508Z] INFO: starting sql injection checks
-[2025-04-19T19:20:46.190Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:20:46.191Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:20:46.258Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:20:46.259Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:20:47.012Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:20:47.012Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:22:46.642Z] INFO: starting sql injection checks
-[2025-04-19T19:22:47.328Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:22:47.329Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:22:47.422Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:22:47.422Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:22:48.107Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:22:48.108Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
-[2025-04-19T19:22:48.109Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:23:27.306Z] INFO: starting sql injection checks
-[2025-04-19T19:23:27.981Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:23:27.982Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:23:28.084Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:23:28.084Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:23:28.761Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:23:28.762Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T19:23:28.763Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:24:29.124Z] INFO: starting sql injection checks
-[2025-04-19T19:24:29.806Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:24:29.807Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:24:29.838Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:24:29.839Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:24:30.533Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:24:30.533Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T19:24:46.199Z] INFO: starting sql injection checks
-[2025-04-19T19:24:46.838Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:24:46.839Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:24:46.913Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:24:46.913Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:24:47.490Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:24:47.491Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:24:47.492Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:24:56.268Z] INFO: starting sql injection checks
-[2025-04-19T19:24:56.918Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:24:56.918Z] INFO: checking ip: 218.92.0.216
-[2025-04-19T19:24:56.982Z] WARN: blocked malicious ip: 218.92.0.216
-[2025-04-19T19:24:56.984Z] INFO: checking ip : 218.92.0.216
-[2025-04-19T19:24:57.558Z] INFO: ip location: Nanjing, JS, China (Lat: 31.7762, Lon: 118.842)
-[2025-04-19T19:24:57.559Z] WARN: ip 218.92.0.216 blocked - outside trusted geolocation range
-[2025-04-19T19:25:06.774Z] INFO: starting sql injection checks
-[2025-04-19T19:25:07.410Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:07.411Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:25:07.477Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:25:07.477Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:25:08.118Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:25:08.119Z] WARN: Blocked Device Detected| IP: ::1 | User-Agent: windows | Path: /get
-[2025-04-19T19:25:11.795Z] INFO: starting sql injection checks
-[2025-04-19T19:25:12.443Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:12.444Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:25:12.492Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:25:12.493Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:25:13.117Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:25:13.118Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T19:25:16.065Z] INFO: starting sql injection checks
-[2025-04-19T19:25:16.781Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:16.782Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:25:16.866Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:25:16.866Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:25:17.206Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:25:17.206Z] WARN: Blocked Device Detected| IP: ::1 | User-Agent: windows | Path: /get
-[2025-04-19T19:25:19.090Z] INFO: starting sql injection checks
-[2025-04-19T19:25:19.848Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:19.849Z] INFO: checking ip: 218.92.0.216
-[2025-04-19T19:25:19.896Z] WARN: blocked malicious ip: 218.92.0.216
-[2025-04-19T19:25:19.899Z] INFO: checking ip : 218.92.0.216
-[2025-04-19T19:25:20.254Z] INFO: ip location: Nanjing, JS, China (Lat: 31.7762, Lon: 118.842)
-[2025-04-19T19:25:20.255Z] WARN: ip 218.92.0.216 blocked - outside trusted geolocation range
-[2025-04-19T19:25:22.448Z] INFO: starting sql injection checks
-[2025-04-19T19:25:23.539Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:23.539Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:25:23.581Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:25:23.582Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:25:24.133Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:25:24.133Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:25:24.135Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:25:43.063Z] INFO: starting sql injection checks
-[2025-04-19T19:25:43.752Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:25:43.752Z] INFO: checking ip: 218.92.0.216
-[2025-04-19T19:25:43.841Z] WARN: blocked malicious ip: 218.92.0.216
-[2025-04-19T19:25:43.843Z] INFO: checking ip : 218.92.0.216
-[2025-04-19T19:25:44.527Z] INFO: ip location: Nanjing, JS, China (Lat: 31.7762, Lon: 118.842)
-[2025-04-19T19:25:44.527Z] WARN: ip 218.92.0.216 blocked - outside trusted geolocation range
-[2025-04-19T19:26:02.694Z] INFO: starting sql injection checks
-[2025-04-19T19:26:03.347Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:26:03.347Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:26:03.443Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:26:03.444Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:26:04.218Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:26:04.218Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:26:04.220Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:26:12.651Z] INFO: starting sql injection checks
-[2025-04-19T19:26:13.402Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:26:13.402Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:26:13.495Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:26:13.496Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:26:14.055Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:26:14.056Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
-[2025-04-19T19:26:14.057Z] WARN: Unsupported url protocol found, cannot forward request
-[2025-04-19T19:31:47.316Z] INFO: starting sql injection checks
-[2025-04-19T19:31:47.978Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:31:47.979Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:31:48.017Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:31:48.018Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:31:48.821Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:31:48.821Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /serversideforgery
-[2025-04-19T19:31:48.823Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:42:20.120Z] INFO: starting sql injection checks
-[2025-04-19T19:42:20.798Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:42:20.799Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:42:20.888Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:42:20.889Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:42:21.654Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:42:21.655Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T19:42:23.325Z] INFO: starting sql injection checks
-[2025-04-19T19:42:24.014Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:42:24.015Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:42:24.059Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:42:24.059Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:42:24.433Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:42:24.434Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T19:43:12.276Z] INFO: starting sql injection checks
-[2025-04-19T19:43:12.946Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:43:12.947Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:43:13.043Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:43:13.044Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:43:14.017Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:43:14.017Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
-[2025-04-19T19:43:27.558Z] INFO: starting sql injection checks
-[2025-04-19T19:43:28.204Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:43:28.205Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:43:28.282Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:43:28.282Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:43:28.902Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:43:28.903Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /serversideforgery
-[2025-04-19T19:43:28.905Z] WARN: Blacklisted url found, cannot forward request
-[2025-04-19T19:44:49.995Z] INFO: starting sql injection checks
-[2025-04-19T19:44:50.705Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:44:50.706Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:44:50.738Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:44:50.739Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:44:51.554Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:44:51.554Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T19:44:57.454Z] INFO: starting sql injection checks
-[2025-04-19T19:44:58.109Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:44:58.110Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:44:58.192Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:44:58.193Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:44:59.055Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:44:59.056Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T19:45:29.227Z] INFO: starting sql injection checks
-[2025-04-19T19:45:30.003Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:45:30.004Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:45:30.037Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:45:30.038Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:45:30.792Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:45:30.793Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T19:46:09.061Z] INFO: starting sql injection checks
-[2025-04-19T19:46:09.773Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T19:46:09.774Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T19:46:09.809Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T19:46:09.810Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T19:46:10.593Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T19:46:10.594Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:01:03.290Z] INFO: starting sql injection checks
-[2025-04-19T20:01:03.764Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:01:03.765Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:01:03.790Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:01:03.791Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:01:04.476Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:01:04.476Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
-[2025-04-19T20:01:38.482Z] INFO: starting sql injection checks
-[2025-04-19T20:01:38.945Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:01:38.945Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:01:39.022Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:01:39.022Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:01:39.673Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:01:39.674Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:02:13.337Z] INFO: starting sql injection checks
-[2025-04-19T20:02:13.798Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:02:13.799Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:02:13.825Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:02:13.826Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:02:14.674Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:02:14.674Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:02:50.094Z] INFO: starting sql injection checks
-[2025-04-19T20:02:50.561Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:02:50.562Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:02:50.590Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:02:50.591Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:02:51.477Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:02:51.478Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
-[2025-04-19T20:02:52.269Z] WARN: Memory Limit Has been Exceedded with current consumption being 156.375
-[2025-04-19T20:03:24.439Z] INFO: starting sql injection checks
-[2025-04-19T20:03:24.927Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:03:24.927Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:03:24.964Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:03:24.964Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:03:25.712Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:03:25.713Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:03:39.655Z] INFO: starting sql injection checks
-[2025-04-19T20:03:40.123Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:03:40.124Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:03:40.164Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:03:40.165Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:03:40.851Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:03:40.852Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:03:53.419Z] WARN: Memory Limit Has been Exceedded with current consumption being 170.3359375
-[2025-04-19T20:06:57.962Z] INFO: starting sql injection checks
-[2025-04-19T20:06:58.419Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:06:58.420Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:06:58.448Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:06:58.449Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:06:59.243Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:06:59.244Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:07:13.876Z] INFO: starting sql injection checks
-[2025-04-19T20:07:14.344Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:07:14.345Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:07:14.401Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:07:14.401Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:07:15.156Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:07:15.157Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:07:45.576Z] INFO: starting sql injection checks
-[2025-04-19T20:07:46.039Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:07:46.040Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:07:46.070Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:07:46.071Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:07:46.676Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:07:46.677Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:08:04.583Z] INFO: starting sql injection checks
-[2025-04-19T20:08:05.065Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:08:05.066Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:08:05.090Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:08:05.091Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:08:05.835Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:08:05.836Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:08:14.748Z] INFO: starting sql injection checks
-[2025-04-19T20:08:15.209Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:08:15.210Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:08:15.244Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:08:15.245Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:08:15.869Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:08:15.870Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:08:29.568Z] INFO: starting sql injection checks
-[2025-04-19T20:08:30.018Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:08:30.018Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:08:30.054Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:08:30.054Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:08:30.633Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:08:30.634Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:08:30.714Z] WARN: Memory Limit Has been Exceedded with current consumption being 40.37890625
-[2025-04-19T20:09:29.483Z] INFO: starting sql injection checks
-[2025-04-19T20:09:29.938Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:09:29.939Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:09:29.974Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:09:29.974Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:09:30.853Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:09:30.854Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:09:32.986Z] WARN: Memory Limit Has been Exceedded with current consumption being 21.0859375
-[2025-04-19T20:12:36.969Z] INFO: starting sql injection checks
-[2025-04-19T20:12:37.445Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:12:37.446Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:12:37.478Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:12:37.478Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:12:38.309Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:12:38.310Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:12:39.948Z] WARN: Memory Limit Has been Exceedded with current consumption being 20.84375
-[2025-04-19T20:14:25.744Z] INFO: starting sql injection checks
-[2025-04-19T20:14:26.208Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:14:26.208Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:14:26.234Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:14:26.234Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:14:27.000Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:14:27.000Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:14:27.688Z] WARN: Memory Limit Has been Exceedded with current consumption being 20.90625
-[2025-04-19T20:14:50.700Z] INFO: starting sql injection checks
-[2025-04-19T20:14:51.152Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:14:51.153Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:14:51.178Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:14:51.178Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:14:51.835Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:14:51.835Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:14:53.462Z] WARN: Memory Limit Has been Exceedded with current consumption being 21.1640625
-[2025-04-19T20:16:38.520Z] INFO: starting sql injection checks
-[2025-04-19T20:16:38.967Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:16:38.967Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:16:38.997Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:16:38.997Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:16:39.726Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:16:39.726Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:20:10.314Z] INFO: starting sql injection checks
-[2025-04-19T20:20:10.782Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:20:10.782Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:20:10.806Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:20:10.807Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:20:11.481Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:20:11.481Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:20:14.109Z] WARN: Memory Limit Has been Exceedded with current consumption being 20.421875
-[2025-04-19T20:20:50.248Z] INFO: starting sql injection checks
-[2025-04-19T20:20:50.704Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:20:50.704Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:20:50.729Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:20:50.730Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:20:51.435Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:20:51.435Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:20:52.535Z] WARN: Memory Limit Has been Exceedded with current consumption being 20.8046875
-[2025-04-19T20:22:18.815Z] INFO: starting sql injection checks
-[2025-04-19T20:22:19.290Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:22:19.290Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:22:19.313Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:22:19.313Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:22:20.112Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:22:20.113Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:22:39.151Z] INFO: starting sql injection checks
-[2025-04-19T20:22:39.614Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:22:39.614Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:22:39.649Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:22:39.649Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:22:40.399Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:22:40.399Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
-[2025-04-19T20:22:42.002Z] WARN: Memory Limit Has been Exceedded with current consumption being 21.47265625
-[2025-04-19T20:23:14.127Z] INFO: starting sql injection checks
-[2025-04-19T20:23:14.576Z] INFO: SQL injection check completed request is ok!!
-[2025-04-19T20:23:14.576Z] INFO: checking ip: 127.0.0.1
-[2025-04-19T20:23:14.606Z] INFO: ip 127.0.0.1 is clean check passed
-[2025-04-19T20:23:14.606Z] INFO: checking ip : 127.0.0.1
-[2025-04-19T20:23:15.183Z] INFO: ip 127.0.0.1 passed geolocation checkk
-[2025-04-19T20:23:15.184Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
-[2025-04-19T20:23:17.993Z] WARN: Memory Limit Has been Exceedded with current consumption being 20.96875
+[2025-04-20T02:04:36.809Z] INFO: starting sql injection checks
+[2025-04-20T02:04:37.390Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:04:37.390Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:04:37.429Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:04:37.430Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:04:38.175Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:04:38.175Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
+[2025-04-20T02:05:07.927Z] INFO: starting sql injection checks
+[2025-04-20T02:05:08.374Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:05:08.374Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:05:08.430Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:05:08.431Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:05:09.117Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:05:09.117Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
+[2025-04-20T02:05:20.786Z] INFO: starting sql injection checks
+[2025-04-20T02:05:21.228Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:05:21.228Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:05:21.288Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:05:21.288Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:05:21.910Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:05:21.910Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
+[2025-04-20T02:05:30.009Z] INFO: starting sql injection checks
+[2025-04-20T02:05:30.454Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:05:30.454Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:05:30.505Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:05:30.505Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:05:31.190Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:05:31.191Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
+[2025-04-20T02:07:40.944Z] INFO: starting sql injection checks
+[2025-04-20T02:07:41.389Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:07:41.389Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:07:41.450Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:07:41.450Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:07:42.131Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:07:42.131Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
+[2025-04-20T02:07:42.132Z] WARN: Unsupported url protocol found, cannot forward request
+[2025-04-20T02:10:39.831Z] INFO: starting sql injection checks
+[2025-04-20T02:10:40.276Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:10:40.276Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:10:40.335Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:10:40.335Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:10:40.924Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:10:40.924Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:11:40.120Z] INFO: starting sql injection checks
+[2025-04-20T02:11:40.596Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:11:40.597Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:11:40.659Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:11:40.659Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:11:41.552Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:11:41.552Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
+[2025-04-20T02:12:06.966Z] INFO: starting sql injection checks
+[2025-04-20T02:12:07.405Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:12:07.405Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:12:07.463Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:12:07.463Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:12:08.092Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:12:08.092Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
+[2025-04-20T02:12:21.008Z] INFO: starting sql injection checks
+[2025-04-20T02:12:21.564Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:12:21.564Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:12:21.617Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:12:21.617Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:12:22.191Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:12:22.191Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:12:24.851Z] INFO: starting sql injection checks
+[2025-04-20T02:12:25.287Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:12:25.287Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:12:25.322Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:12:25.322Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:12:25.639Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:12:25.639Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:12:26.395Z] INFO: starting sql injection checks
+[2025-04-20T02:12:26.914Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:12:26.915Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:12:26.954Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:12:26.954Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:12:27.246Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:12:27.246Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:13:07.368Z] INFO: starting sql injection checks
+[2025-04-20T02:13:07.819Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:13:07.819Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:13:07.880Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:13:07.881Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:13:08.500Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:13:08.500Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
+[2025-04-20T02:13:47.350Z] INFO: starting sql injection checks
+[2025-04-20T02:13:47.822Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:13:47.822Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:13:47.851Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:13:47.852Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:13:48.679Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:13:48.680Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
+[2025-04-20T02:14:10.237Z] INFO: starting sql injection checks
+[2025-04-20T02:14:10.751Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:14:10.751Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:14:10.808Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:14:10.808Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:14:11.387Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:14:11.388Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:14:54.971Z] INFO: starting sql injection checks
+[2025-04-20T02:14:55.417Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:14:55.418Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:14:55.448Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:14:55.448Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:14:56.288Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:14:56.288Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:14:58.195Z] WARN: Memory Limit Has been Exceedded with current consumption being 21.3046875
+[2025-04-20T02:16:31.937Z] INFO: starting sql injection checks
+[2025-04-20T02:16:32.501Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:16:32.501Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:16:32.534Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:16:32.535Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:16:33.391Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:16:33.391Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:17:00.061Z] INFO: starting sql injection checks
+[2025-04-20T02:17:00.513Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:17:00.513Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:17:00.536Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:17:00.536Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:17:01.241Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:17:01.241Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:17:22.409Z] INFO: starting sql injection checks
+[2025-04-20T02:17:22.885Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:17:22.885Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:17:22.916Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:17:22.917Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:17:23.468Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:17:23.469Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:17:43.935Z] INFO: starting sql injection checks
+[2025-04-20T02:17:44.385Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:17:44.385Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:17:44.429Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:17:44.429Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:17:45.798Z] WARN: Memory Limit Has been Exceedded with current consumption being 24.64453125
+[2025-04-20T02:17:45.944Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:17:45.944Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:18:23.267Z] INFO: starting sql injection checks
+[2025-04-20T02:18:23.714Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:18:23.715Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:18:23.777Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:18:23.777Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:18:24.531Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:18:24.532Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:19:46.853Z] INFO: starting sql injection checks
+[2025-04-20T02:19:47.316Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:19:47.317Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:19:47.339Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:19:47.340Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:19:48.028Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:19:48.028Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:19:50.154Z] WARN: Memory Limit Has been Exceedded with current consumption being 165.0703125
+[2025-04-20T02:19:55.161Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.140625
+[2025-04-20T02:20:00.176Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.140625
+[2025-04-20T02:20:05.188Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.140625
+[2025-04-20T02:20:08.973Z] INFO: starting sql injection checks
+[2025-04-20T02:20:09.412Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:20:09.413Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:20:09.446Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:20:09.447Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:20:10.259Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:20:10.259Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T02:21:06.776Z] WARN: Memory Limit Has been Exceedded with current consumption being 146.1796875
+[2025-04-20T02:21:47.374Z] INFO: starting sql injection checks
+[2025-04-20T02:21:47.817Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:47.817Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:47.876Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:47.876Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:48.758Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:48.758Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:49.592Z] INFO: starting sql injection checks
+[2025-04-20T02:21:50.033Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:50.033Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:50.065Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:50.065Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:50.335Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:50.335Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:51.405Z] INFO: starting sql injection checks
+[2025-04-20T02:21:51.851Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:51.851Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:51.889Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:51.889Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:52.278Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:52.278Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:52.979Z] INFO: starting sql injection checks
+[2025-04-20T02:21:53.421Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:53.421Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:53.456Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:53.456Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:53.739Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:53.739Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:54.479Z] INFO: starting sql injection checks
+[2025-04-20T02:21:54.923Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:54.923Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:54.950Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:54.950Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:55.232Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:55.232Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:55.905Z] INFO: starting sql injection checks
+[2025-04-20T02:21:56.344Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:56.344Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:56.377Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:56.377Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:56.659Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:56.659Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:57.376Z] INFO: starting sql injection checks
+[2025-04-20T02:21:57.817Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:57.817Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:57.854Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:57.855Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:58.146Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:58.146Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:21:58.926Z] INFO: starting sql injection checks
+[2025-04-20T02:21:59.373Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:21:59.374Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:21:59.406Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:21:59.407Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:21:59.673Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:21:59.674Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:22:00.404Z] INFO: starting sql injection checks
+[2025-04-20T02:22:00.846Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:22:00.846Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:22:00.879Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:22:00.879Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:22:01.183Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:22:01.183Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:22:01.911Z] INFO: starting sql injection checks
+[2025-04-20T02:22:02.357Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:22:02.357Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:22:02.397Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:22:02.397Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:22:02.683Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:22:02.683Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:22:03.403Z] INFO: starting sql injection checks
+[2025-04-20T02:22:03.843Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:22:03.843Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:22:03.860Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:22:03.860Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:22:04.150Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:22:04.150Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:22:04.851Z] INFO: starting sql injection checks
+[2025-04-20T02:22:05.297Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:22:05.297Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:22:05.325Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:22:05.325Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:22:05.618Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:22:05.618Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:22:06.348Z] INFO: starting sql injection checks
+[2025-04-20T02:22:06.809Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:22:06.809Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:22:06.842Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:22:06.842Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:22:07.146Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:22:07.146Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:23:08.712Z] INFO: starting sql injection checks
+[2025-04-20T02:23:09.163Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:23:09.163Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:23:09.194Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:23:09.194Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:23:09.858Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:23:09.858Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:23:10.708Z] INFO: starting sql injection checks
+[2025-04-20T02:23:11.151Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:23:11.151Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:23:11.184Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:23:11.185Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:23:11.486Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:23:11.486Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:23:12.082Z] WARN: Memory Limit Has been Exceedded with current consumption being 172.51953125
+[2025-04-20T02:23:36.274Z] INFO: starting sql injection checks
+[2025-04-20T02:23:36.717Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:23:36.717Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:23:36.771Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:23:36.772Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:23:37.576Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:23:37.576Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:23:53.749Z] INFO: starting sql injection checks
+[2025-04-20T02:23:54.204Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:23:54.204Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:23:54.258Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:23:54.258Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:23:54.856Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:23:54.856Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:24:31.734Z] WARN: Memory Limit Has been Exceedded with current consumption being 145.640625
+[2025-04-20T02:24:34.249Z] INFO: starting sql injection checks
+[2025-04-20T02:24:34.698Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:24:34.698Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:24:34.729Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:24:34.729Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:24:35.714Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:24:35.714Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:24:47.844Z] WARN: Memory Limit Has been Exceedded with current consumption being 146.62890625
+[2025-04-20T02:24:52.480Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:24:52.480Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:24:52.480Z] INFO: starting sql injection checks
+[2025-04-20T02:24:52.947Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:24:52.948Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:24:52.978Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:24:52.979Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:24:53.623Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:24:53.623Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:24:57.867Z] WARN: Memory Limit Has been Exceedded with current consumption being 135.32421875
+[2025-04-20T02:24:58.522Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T02:24:58.523Z] INFO: starting sql injection checks
+[2025-04-20T02:24:58.960Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:24:58.960Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:24:58.995Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:24:58.995Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:24:59.661Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:24:59.662Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:00.367Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T02:25:00.367Z] INFO: starting sql injection checks
+[2025-04-20T02:25:00.806Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:00.806Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:00.827Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:00.827Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:01.119Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:01.119Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:01.848Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T02:25:01.848Z] INFO: starting sql injection checks
+[2025-04-20T02:25:02.298Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:02.299Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:02.323Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:02.324Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:02.623Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:02.623Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:02.872Z] WARN: Memory Limit Has been Exceedded with current consumption being 149.30859375
+[2025-04-20T02:25:03.303Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T02:25:03.303Z] INFO: starting sql injection checks
+[2025-04-20T02:25:03.747Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:03.747Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:03.777Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:03.777Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:04.078Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:04.078Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:04.909Z] WARN: rate limit exceeded for ipP ::1. current counter: 6
+[2025-04-20T02:25:04.909Z] INFO: starting sql injection checks
+[2025-04-20T02:25:05.349Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:05.350Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:05.382Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:05.382Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:05.679Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:05.679Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:06.478Z] WARN: rate limit exceeded for ipP ::1. current counter: 7
+[2025-04-20T02:25:06.478Z] INFO: starting sql injection checks
+[2025-04-20T02:25:06.924Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:06.924Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:06.949Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:06.949Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:07.256Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:07.256Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:07.876Z] WARN: Memory Limit Has been Exceedded with current consumption being 149.87890625
+[2025-04-20T02:25:12.883Z] WARN: Memory Limit Has been Exceedded with current consumption being 141.42578125
+[2025-04-20T02:25:23.703Z] WARN: rate limit exceeded for ipP ::1. current counter: 8
+[2025-04-20T02:25:23.706Z] INFO: starting sql injection checks
+[2025-04-20T02:25:24.156Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:24.156Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:24.180Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:24.180Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:24.841Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:24.841Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:26.955Z] WARN: Memory Limit Has been Exceedded with current consumption being 161.39453125
+[2025-04-20T02:25:37.929Z] WARN: rate limit exceeded for ipP ::1. current counter: 9
+[2025-04-20T02:25:37.931Z] INFO: starting sql injection checks
+[2025-04-20T02:25:38.377Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:25:38.378Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:25:38.411Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:25:38.411Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:25:39.161Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:25:39.161Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:25:40.904Z] WARN: Memory Limit Has been Exceedded with current consumption being 162.80078125
+[2025-04-20T02:25:45.910Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.0859375
+[2025-04-20T02:25:50.923Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.0859375
+[2025-04-20T02:25:55.924Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.0859375
+[2025-04-20T02:26:00.927Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.1484375
+[2025-04-20T02:26:05.940Z] WARN: Memory Limit Has been Exceedded with current consumption being 124.125
+[2025-04-20T02:27:03.156Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:27:03.159Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:27:05.480Z] WARN: Memory Limit Has been Exceedded with current consumption being 147.6953125
+[2025-04-20T02:28:25.240Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:28:25.240Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:28:26.108Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T02:28:34.670Z] INFO: started rate limiting for ip 218.92.0.216, expiry time set is 60 seconds.
+[2025-04-20T02:28:34.670Z] INFO: request from ip 218.92.0.216 allowed. Current request count: 1
+[2025-04-20T02:28:56.003Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T02:28:57.004Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T02:28:57.705Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T02:28:58.379Z] WARN: rate limit exceeded for ipP ::1. current counter: 6
+[2025-04-20T02:28:58.379Z] INFO: starting sql injection checks
+[2025-04-20T02:28:58.892Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:28:58.892Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:28:58.952Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:28:58.952Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:28:59.660Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:28:59.660Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:27.637Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:29:27.637Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:29:28.402Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T02:29:29.213Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T02:29:29.865Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T02:29:30.554Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T02:29:31.198Z] WARN: rate limit exceeded for ipP ::1. current counter: 6
+[2025-04-20T02:29:31.198Z] INFO: starting sql injection checks
+[2025-04-20T02:29:31.645Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:31.645Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:31.709Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:31.709Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:32.579Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:32.579Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:32.843Z] WARN: rate limit exceeded for ipP ::1. current counter: 7
+[2025-04-20T02:29:32.843Z] INFO: starting sql injection checks
+[2025-04-20T02:29:33.279Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:33.279Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:33.309Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:33.309Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:33.578Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:33.578Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:34.122Z] WARN: rate limit exceeded for ipP ::1. current counter: 8
+[2025-04-20T02:29:34.122Z] INFO: starting sql injection checks
+[2025-04-20T02:29:34.563Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:34.563Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:34.606Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:34.607Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:34.890Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:34.891Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:36.679Z] WARN: rate limit exceeded for ipP ::1. current counter: 9
+[2025-04-20T02:29:36.679Z] INFO: starting sql injection checks
+[2025-04-20T02:29:37.119Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:37.119Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:37.143Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:37.143Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:37.412Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:37.412Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:38.209Z] WARN: rate limit exceeded for ipP ::1. current counter: 10
+[2025-04-20T02:29:38.209Z] INFO: starting sql injection checks
+[2025-04-20T02:29:38.668Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:38.668Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:38.702Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:38.702Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:38.978Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:38.979Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:39.680Z] WARN: rate limit exceeded for ipP ::1. current counter: 11
+[2025-04-20T02:29:39.681Z] INFO: starting sql injection checks
+[2025-04-20T02:29:40.194Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:40.194Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:40.230Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:40.230Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:40.509Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:40.509Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:41.236Z] WARN: rate limit exceeded for ipP ::1. current counter: 12
+[2025-04-20T02:29:41.236Z] INFO: starting sql injection checks
+[2025-04-20T02:29:41.726Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:41.726Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:41.756Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:41.757Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:42.032Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:42.032Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:42.794Z] WARN: rate limit exceeded for ipP ::1. current counter: 13
+[2025-04-20T02:29:42.794Z] INFO: starting sql injection checks
+[2025-04-20T02:29:43.314Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:43.314Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:43.345Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:43.345Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:43.641Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:43.641Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:45.420Z] WARN: rate limit exceeded for ipP ::1. current counter: 14
+[2025-04-20T02:29:45.420Z] INFO: starting sql injection checks
+[2025-04-20T02:29:45.727Z] WARN: Memory Limit Has been Exceedded with current consumption being 127.39453125
+[2025-04-20T02:29:45.857Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:45.857Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:45.893Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:45.893Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:46.188Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:46.188Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:46.959Z] WARN: rate limit exceeded for ipP ::1. current counter: 15
+[2025-04-20T02:29:46.959Z] INFO: starting sql injection checks
+[2025-04-20T02:29:47.396Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:47.396Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:47.413Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:47.413Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:47.794Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:47.794Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:48.544Z] WARN: rate limit exceeded for ipP ::1. current counter: 16
+[2025-04-20T02:29:48.544Z] INFO: starting sql injection checks
+[2025-04-20T02:29:49.078Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:29:49.078Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:29:49.105Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:29:49.105Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:29:49.394Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:29:49.394Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:29:50.729Z] WARN: Memory Limit Has been Exceedded with current consumption being 130.0546875
+[2025-04-20T02:30:04.666Z] WARN: rate limit exceeded for ipP ::1. current counter: 17
+[2025-04-20T02:30:07.415Z] WARN: Memory Limit Has been Exceedded with current consumption being 147.11328125
+[2025-04-20T02:30:12.991Z] WARN: rate limit exceeded for ipP ::1. current counter: 18
+[2025-04-20T02:30:25.781Z] WARN: rate limit exceeded for ipP ::1. current counter: 19
+[2025-04-20T02:30:30.114Z] WARN: Memory Limit Has been Exceedded with current consumption being 139.62890625
+[2025-04-20T02:30:41.883Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:30:41.883Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:30:41.883Z] INFO: starting sql injection checks
+[2025-04-20T02:30:42.325Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:30:42.325Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:30:42.355Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:30:42.355Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:30:43.055Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:30:43.055Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:30:44.092Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T02:30:44.093Z] INFO: starting sql injection checks
+[2025-04-20T02:30:44.584Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:30:44.585Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:30:44.620Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:30:44.620Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:30:44.930Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:30:44.930Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:30:45.137Z] WARN: Memory Limit Has been Exceedded with current consumption being 136.0390625
+[2025-04-20T02:30:45.648Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T02:30:45.648Z] INFO: starting sql injection checks
+[2025-04-20T02:30:46.112Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:30:46.112Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:30:46.151Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:30:46.152Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:30:46.440Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:30:46.440Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:30:47.241Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T02:30:47.241Z] INFO: starting sql injection checks
+[2025-04-20T02:30:47.692Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:30:47.693Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:30:47.717Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:30:47.718Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:30:48.049Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:30:48.049Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:30:48.778Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T02:30:48.779Z] INFO: starting sql injection checks
+[2025-04-20T02:30:49.221Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:30:49.221Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:30:49.253Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:30:49.253Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:30:49.616Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:30:49.616Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:30:50.152Z] WARN: Memory Limit Has been Exceedded with current consumption being 140.53515625
+[2025-04-20T02:30:50.432Z] WARN: rate limit exceeded for ipP ::1. current counter: 6
+[2025-04-20T02:30:55.163Z] WARN: Memory Limit Has been Exceedded with current consumption being 132.3515625
+[2025-04-20T02:32:36.814Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T02:32:36.814Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T02:32:36.814Z] INFO: starting sql injection checks
+[2025-04-20T02:32:37.250Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:32:37.250Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:32:37.314Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:32:37.314Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T02:32:38.001Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T02:32:38.001Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T02:32:52.376Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T02:32:52.376Z] INFO: starting sql injection checks
+[2025-04-20T02:32:52.830Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T02:32:52.831Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T02:32:52.883Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T02:32:52.883Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:14:29.415Z] WARN: Memory Limit Has been Exceedded with current consumption being 137.76953125
+[2025-04-20T03:14:34.470Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T03:14:34.470Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T03:14:34.471Z] INFO: starting sql injection checks
+[2025-04-20T03:14:35.235Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:14:35.236Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:14:35.284Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:14:35.284Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:14:35.991Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:14:35.992Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
+[2025-04-20T03:14:39.430Z] WARN: Memory Limit Has been Exceedded with current consumption being 125.05859375
+[2025-04-20T03:16:33.556Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T03:16:33.556Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T03:16:33.556Z] INFO: starting sql injection checks
+[2025-04-20T03:16:34.317Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:16:34.317Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:16:34.413Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:16:34.414Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:16:35.263Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:16:35.264Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/?dddd=asdasd
+[2025-04-20T03:17:20.605Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T03:17:20.605Z] INFO: starting sql injection checks
+[2025-04-20T03:17:21.411Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:17:21.411Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:17:21.512Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:17:21.512Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:17:22.221Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:17:22.222Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /sqlinjection
+[2025-04-20T03:17:38.255Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T03:17:38.256Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T03:17:38.256Z] INFO: starting sql injection checks
+[2025-04-20T03:17:39.057Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:17:39.057Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:17:39.158Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:17:39.158Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:17:39.957Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:17:39.957Z] WARN: Blocked Device Detected| IP: ::1 | User-Agent: windows | Path: /get
+[2025-04-20T03:18:06.161Z] INFO: started rate limiting for ip 218.92.0.216, expiry time set is 60 seconds.
+[2025-04-20T03:18:06.161Z] INFO: request from ip 218.92.0.216 allowed. Current request count: 1
+[2025-04-20T03:18:06.161Z] INFO: starting sql injection checks
+[2025-04-20T03:18:06.915Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:18:06.915Z] INFO: checking ip: 218.92.0.216
+[2025-04-20T03:18:07.017Z] WARN: blocked malicious ip: 218.92.0.216
+[2025-04-20T03:18:07.018Z] INFO: checking ip : 218.92.0.216
+[2025-04-20T03:18:07.712Z] INFO: ip location: Nanjing, JS, China (Lat: 31.7762, Lon: 118.842)
+[2025-04-20T03:18:07.713Z] WARN: ip 218.92.0.216 blocked - outside trusted geolocation range
+[2025-04-20T03:18:43.928Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T03:18:43.928Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T03:18:43.928Z] INFO: starting sql injection checks
+[2025-04-20T03:18:44.745Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:18:44.746Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:18:44.846Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:18:44.846Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:18:45.631Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:18:45.631Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /serversideforgery
+[2025-04-20T03:18:45.632Z] WARN: Blacklisted url found, cannot forward request
+[2025-04-20T03:18:57.776Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T03:18:57.776Z] INFO: starting sql injection checks
+[2025-04-20T03:18:58.574Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:18:58.575Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:18:58.657Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:18:58.657Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:18:59.264Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:18:59.264Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /post
+[2025-04-20T03:18:59.265Z] WARN: Unsupported url protocol found, cannot forward request
+[2025-04-20T03:19:24.290Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T03:19:24.290Z] INFO: starting sql injection checks
+[2025-04-20T03:19:25.145Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:25.145Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:25.251Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:25.251Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:25.896Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:25.896Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T03:19:32.253Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T03:19:32.253Z] INFO: starting sql injection checks
+[2025-04-20T03:19:32.986Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:32.986Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:33.039Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:33.040Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:33.854Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:33.854Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveMem
+[2025-04-20T03:19:42.661Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T03:19:42.662Z] INFO: starting sql injection checks
+[2025-04-20T03:19:43.210Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:43.210Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:43.280Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:43.281Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:43.925Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:43.925Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /excessiveTime
+[2025-04-20T03:19:53.446Z] INFO: started rate limiting for ip ::1, expiry time set is 60 seconds.
+[2025-04-20T03:19:53.446Z] INFO: request from ip ::1 allowed. Current request count: 1
+[2025-04-20T03:19:53.446Z] INFO: starting sql injection checks
+[2025-04-20T03:19:54.043Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:54.043Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:54.116Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:54.117Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:54.711Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:54.712Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T03:19:55.703Z] INFO: request from ip ::1 allowed. Current request count: 2
+[2025-04-20T03:19:55.703Z] INFO: starting sql injection checks
+[2025-04-20T03:19:56.256Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:56.256Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:56.304Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:56.304Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:56.683Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:56.683Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T03:19:57.694Z] INFO: request from ip ::1 allowed. Current request count: 3
+[2025-04-20T03:19:57.694Z] INFO: starting sql injection checks
+[2025-04-20T03:19:58.211Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:19:58.211Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:19:58.269Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:19:58.269Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:19:58.836Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:19:58.837Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T03:19:59.510Z] INFO: request from ip ::1 allowed. Current request count: 4
+[2025-04-20T03:19:59.510Z] INFO: starting sql injection checks
+[2025-04-20T03:19:59.963Z] WARN: Memory Limit Has been Exceedded with current consumption being 123.2578125
+[2025-04-20T03:20:00.059Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:20:00.059Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:20:00.087Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:20:00.087Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:20:00.376Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:20:00.376Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T03:20:01.320Z] INFO: request from ip ::1 allowed. Current request count: 5
+[2025-04-20T03:20:01.321Z] INFO: starting sql injection checks
+[2025-04-20T03:20:01.823Z] INFO: SQL injection check completed request is ok!!
+[2025-04-20T03:20:01.824Z] INFO: checking ip: 127.0.0.1
+[2025-04-20T03:20:01.867Z] INFO: ip 127.0.0.1 is clean check passed
+[2025-04-20T03:20:01.868Z] INFO: checking ip : 127.0.0.1
+[2025-04-20T03:20:02.265Z] INFO: ip 127.0.0.1 passed geolocation checkk
+[2025-04-20T03:20:02.265Z] INFO: allowed device| IP: ::1| User-Agent: PostmanRuntime/7.43.3| Path: /get/
+[2025-04-20T03:20:03.056Z] WARN: rate limit exceeded for ipP ::1. current counter: 6

@@ -23,14 +23,12 @@ app.post('/post',(req,res) => {
 
 app.get('/get' , (req , res)=>{
     container(req , res , 'get.js')
-    // const h = require('./routes/get.js');
-    // h(req,res);
+  
 })
 
 app.post('/sqlinjection' , (req , res) => {
     container(req , res , 'sqlinjection.js')
-    // const h = require('./routes/sqlinjection.js');
-    // h(req,res);
+    
 })
 
 app.post('/serversideforgery' , (req , res) => {
