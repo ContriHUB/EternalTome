@@ -1,4 +1,3 @@
-const rateLimiter = require("../checks/ratelimit");
 const Redis = require("ioredis-mock");
 
 /* 
@@ -10,6 +9,33 @@ npx jest ./middleware/test/ratelimit.test.js
 
 */
 
+// Mock the config first
+jest.mock("../config/rateLimit.config", () => ({
+  maxRequests: 5,
+  windowInSeconds: 60,
+  identifiers: {
+    useIp: true,
+    useUserId: true,
+    useApiKey: true,
+    useSessionId: true,
+    useUserAgent: false, // Disabled for security
+    useAcceptLanguage: false, // Disabled for security
+  },
+  useEntityId: true,
+  failOpen: true,
+  redis: {
+    host: "localhost",
+    port: 6379,
+    keyPrefix: "ratelimit:",
+  },
+  advanced: {
+    useForwardedFor: false,
+    useLeftmostForwardedIp: true,
+    trustedProxies: [],
+  },
+  includeRateLimitHeaders: true,
+}));
+
 // Mock the Redis client
 jest.mock("ioredis", () => require("ioredis-mock"));
 
@@ -19,6 +45,8 @@ jest.mock("../logger/logger", () => ({
   warn: jest.fn(),
   error: jest.fn(),
 }));
+
+const rateLimiter = require("../checks/ratelimit");
 
 describe("Rate Limiter Tests", () => {
   let mockReq;
@@ -35,6 +63,7 @@ describe("Rate Limiter Tests", () => {
     // Create a fresh mock request for each test
     mockReq = {
       ip: "192.168.1.1",
+      connection: { remoteAddress: "192.168.1.1" },
       headers: {
         "user-agent": "Mozilla/5.0",
         "accept-language": "en-US",
@@ -107,15 +136,14 @@ describe("Rate Limiter Tests", () => {
     console.log("✅ Different users have independent limits");
   });
 
-  test("Should create different buckets for different IPs (multi-factor fingerprinting)", async () => {
-    // The rate limiter uses: IP + UserAgent + EntityID + SessionID + Language
-    // ALL factors are included in the hash for maximum security
+  test("Should create different buckets for different IPs (primary security)", async () => {
+    // With default config: IP + SessionID are used
+    // User-Agent and Accept-Language are IGNORED (disabled in config)
 
     const req1 = {
       ip: "192.168.1.1",
+      connection: { remoteAddress: "192.168.1.1" },
       headers: {
-        "user-agent": "Mozilla/5.0",
-        "accept-language": "en-US",
         "x-entity-id": "user123",
       },
       sessionID: "session-abc-123",
@@ -124,9 +152,8 @@ describe("Rate Limiter Tests", () => {
     // Different IP creates a different hash = different rate limit bucket
     const req2 = {
       ip: "10.0.0.1", // Different IP
+      connection: { remoteAddress: "10.0.0.1" },
       headers: {
-        "user-agent": "Mozilla/5.0",
-        "accept-language": "en-US",
         "x-entity-id": "user123",
       },
       sessionID: "session-abc-123",
@@ -146,12 +173,42 @@ describe("Rate Limiter Tests", () => {
     expect(req2Result.allowed).toBe(true);
     expect(req2Result.current).toBe(1); // Fresh counter
 
-    console.log(
-      "✅ Multi-factor fingerprinting: different IPs = different buckets"
-    );
-    console.log(
-      "   This prevents shared IP false positives (e.g., office networks)"
-    );
+    console.log("✅ IP-based rate limiting: different IPs = different buckets");
+  });
+
+  test("Should ignore User-Agent changes (security feature)", async () => {
+    // This is the fix for your DDoS concern!
+    // Changing User-Agent should NOT bypass rate limits
+
+    const req1 = {
+      ...mockReq,
+      headers: {
+        ...mockReq.headers,
+        "user-agent": "Mozilla/5.0 Firefox",
+      },
+    };
+
+    const req2 = {
+      ...mockReq,
+      headers: {
+        ...mockReq.headers,
+        "user-agent": "Chrome/91.0", // Different user agent
+      },
+    };
+
+    // Make 5 requests with first user agent
+    for (let i = 0; i < 5; i++) {
+      await rateLimiter(req1);
+    }
+
+    // Request with DIFFERENT user agent should STILL be rate limited
+    // because User-Agent is not used in the hash (useUserAgent: false)
+    const result = await rateLimiter(req2);
+    expect(result.allowed).toBe(false); // Still blocked!
+    expect(result.current).toBe(6); // Same counter
+
+    console.log("✅ User-Agent rotation does NOT bypass rate limits");
+    console.log("   This prevents DDoS attacks via user-agent spoofing");
   });
 
   test("Should track same user across requests with same fingerprint", async () => {
@@ -183,7 +240,9 @@ describe("Rate Limiter Tests", () => {
     // Test with missing headers
     const invalidReq = {
       ip: "192.168.1.1",
-      // No headers, no sessionID
+      connection: { remoteAddress: "192.168.1.1" },
+      headers: {},
+      // No sessionID
     };
 
     try {
@@ -250,5 +309,66 @@ describe("Rate Limiter Tests", () => {
     expect(entity2Allowed.allowed).toBe(true);
 
     console.log("✅ Entity ID provides proper isolation between users");
+  });
+
+  test("Should track authenticated users separately", async () => {
+    // Authenticated user
+    const authReq = {
+      ...mockReq,
+      user: { id: "auth-user-123" },
+    };
+
+    // Anonymous user (same IP, different bucket due to user ID)
+    const anonReq = {
+      ...mockReq,
+      // No user object
+    };
+
+    // Max out authenticated user
+    for (let i = 0; i < 5; i++) {
+      await rateLimiter(authReq);
+    }
+
+    const authResult = await rateLimiter(authReq);
+    expect(authResult.allowed).toBe(false);
+
+    // Anonymous user should have separate limit
+    const anonResult = await rateLimiter(anonReq);
+    expect(anonResult.allowed).toBe(true);
+    expect(anonResult.current).toBe(1);
+
+    console.log("✅ Authenticated users have separate rate limit buckets");
+  });
+
+  test("Should handle API key authentication", async () => {
+    const apiKey1Req = {
+      ...mockReq,
+      headers: {
+        ...mockReq.headers,
+        "x-api-key": "key-123",
+      },
+    };
+
+    const apiKey2Req = {
+      ...mockReq,
+      headers: {
+        ...mockReq.headers,
+        "x-api-key": "key-456",
+      },
+    };
+
+    // Max out first API key
+    for (let i = 0; i < 5; i++) {
+      await rateLimiter(apiKey1Req);
+    }
+
+    const key1Result = await rateLimiter(apiKey1Req);
+    expect(key1Result.allowed).toBe(false);
+
+    // Second API key should have separate limit
+    const key2Result = await rateLimiter(apiKey2Req);
+    expect(key2Result.allowed).toBe(true);
+
+    console.log("✅ Different API keys have separate rate limits");
   });
 });
