@@ -126,23 +126,25 @@ const prechecks = async (req , res , next) => {
         // prechecks
         
         // 
-        await checkForSQLInjection(req,res);
-        const malicousIpCheck = await checkforMalicousIP(req,res);
-        const ipLocationCheck = await checkForIpLocation(req,res);
-        const deviceTypeCheck = checkForDevices(req,res);
-        const ssrfCheck = await checkForSSRF(req, res);
-        
-        if(ssrfCheck && deviceTypeCheck && malicousIpCheck && ipLocationCheck){
-            next();
-           
-        }
-        
+    await checkForSQLInjection(req, res);
+    if (res.headersSent) return;
+
+    await checkForSSRF(req, res);
+    if (res.headersSent) return;
+
+    await checkforMalicousIP(req, res);
+    if (res.headersSent) return;
+
+    await checkForIpLocation(req, res);
+    if (res.headersSent) return;
+
+    await checkForDevices(req, res);
+    if (res.headersSent) return;
+
+    next();
 
        
         
-    }
-    else{
-        res.status(401).send('Unauthorized!');
     }
 }
 
