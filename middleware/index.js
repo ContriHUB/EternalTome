@@ -98,18 +98,26 @@ const prechecks = async (req , res , next) => {
     req.headers['x-entity-id'] = payload.entityId;
    
 
-    const validSession = await isSessionValid(req);
-    var rateLimited = false;
-    if(!validSession){
-        console.log("checking rate")
-        rateLimited = await rateLimiter(req); 
-    }
+     const validSession = await isSessionValid(req);
+     if (!validSession) {
+       const rateResult = await rateLimiter(req);
+       if (!rateResult.allowed) {
+         res.setHeader("X-RateLimit-Limit", rateResult.limit);
+         res.setHeader("X-RateLimit-Remaining", rateResult.remaining);
+         res.setHeader(
+           "X-RateLimit-Reset",
+           new Date(rateResult.resetTime).toISOString()
+         );
 
-    if(! rateLimited){
-        res.status(400);
-        res.send("This end point has been RateLimited");
-        return;
-    }
+         return res.status(429).json({
+           error: "Too Many Requests",
+           message: `Rate limit exceeded. Try again after ${new Date(
+             rateResult.resetTime
+           ).toISOString()}`,
+           retryAfter: Math.ceil((rateResult.resetTime - Date.now()) / 1000),
+         });
+       }
+     }
 
     
  
