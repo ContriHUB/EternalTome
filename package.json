@@ -18,16 +18,16 @@
   },
   "homepage": "https://github.com/thandi-chai-11/protection#readme",
   "dependencies": {
-    "bcrypt": "^5.1.1",
     "child-process": "^1.0.2",
     "cookie-parser": "^1.4.7",
-    "express": "^5.1.0",
+    "dockerode": "^4.0.9",
     "ioredis": "^5.6.1",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
+    "node-sql-parser": "^5.3.12",
     "redis": "^4.7.0",
     "util": "^0.12.5",
     "winston": "^3.17.0",
-    "workerpool": "^6.5.1"
+    "workerpool": "^9.3.4"
   }
 }
