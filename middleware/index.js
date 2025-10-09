@@ -14,6 +14,7 @@ const EventEmitter = require('events');
 const rateLimiter = require("./checks/ratelimit");
 const logger = require("./logger/logger");
 const checkFormat = require("./trafficcontrol/formatcheck");
+const { verifyOwnership } = require("./utils/checkFinalObject");
 
 
 const Joi = require('joi');
@@ -375,6 +376,9 @@ const postChecks = (req , res , next) => {
         // count++;
         // console.log(JSON.stringify(data));
         // console.log(req.path);
+        if(data && typeof data === 'string'){
+            // keep data as-is for ownership parsing later via safeJsonParse inside helper
+        }
         if(data.errorPayload){
             console.log(data);
             // oldSend.call(res , data.error);
@@ -383,6 +387,13 @@ const postChecks = (req , res , next) => {
         else{
             const path = ensureTrailingSlash(req.path);
             console.log(path);
+            // enforce ownership for object-like payloads
+            const ownership = verifyOwnership(req, data);
+            if(!ownership.ok){
+                res.status(403);
+                oldSend.call(res , JSON.stringify({ error: "Forbidden", message: ownership.reason || "Ownership check failed" }));
+                return;
+            }
             if( checkFormat(data , apiSchema[path])){
                 // console.log('(');
                 oldSend.call(res , JSON.stringify(data));
