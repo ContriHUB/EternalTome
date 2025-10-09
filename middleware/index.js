@@ -13,6 +13,7 @@ const EventEmitter = require('events');
 const rateLimiter = require("./checks/ratelimit");
 const logger = require("./logger/logger");
 const checkFormat = require("./trafficcontrol/formatcheck");
+const { verifyOwnership } = require("./utils/checkFinalObject");
 
 const Joi = require('joi');
 const redisClient = require("./utils/redisclient");
